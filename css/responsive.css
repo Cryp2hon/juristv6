@@ -1,0 +1,807 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 750px;
+  }
+  .main {
+    padding-bottom: 200px;
+  }
+  .main_header {
+    display: flex;
+  }
+  .main_header .menu {
+    display: none;
+  }
+  .main_content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .main_content-left {
+    width: 100%;
+  }
+  .main_content-left .lead {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    text-align: center;
+  }
+  .main_content .offer {
+    width: 450px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .main_content .offer .offertext {
+    width: 600px;
+  }
+  .main_content .offer .offertext br {
+    display: none;
+  }
+  .main_content .offer .offertext i {
+    display: inline;
+  }
+  .main_content .main_button {
+    margin-top: 1030px;
+    position: absolute;
+    width: 750px;
+    z-index: 99;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main_content .button_offer {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    text-align: center;
+    margin-top: 1170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .main_content-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main_content-right .offer_image {
+    transform: scale(0.8);
+    right: -75px;
+    bottom: -100px;
+    margin-left: 100px;
+  }
+  .main_content-right_benefits {
+    margin-left: -500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main_content-right-wrapper {
+    margin-bottom: 0;
+  }
+  .main-transition {
+    z-index: 0;
+    height: 10px;
+    display: none;
+    bottom: -300px;
+  }
+  .second-transitionone {
+    height: 100px;
+    top: -75px;
+  }
+  .second_wrapper {
+    width: 750px;
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .second_left {
+    padding: 0 0 0 50px;
+  }
+  .second_left-title {
+    font-size: 30px;
+    width: 450px;
+  }
+  .second_left-line {
+    margin-top: -47px;
+  }
+  .second_left-text {
+    font-size: 20px;
+    width: 330px;
+  }
+  .second_image {
+    right: 0;
+    width: 512px;
+    height: 663px;
+  }
+  .second_right {
+    right: 0;
+    top: 0;
+    padding-left: 50px;
+    margin-top: -75px;
+    padding-bottom: 100px;
+    padding-top: 0;
+  }
+  .twoblocks .benefits_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .twoblocks .benefits_image {
+    display: none;
+  }
+  .twoblocks .benefits_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .twoblocks .benefits_left-title {
+    text-align: center;
+  }
+  .twoblocks .pains {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .twoblocks .pains_pain {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .twoblocks .pains_pain-left {
+    margin-bottom: 50px;
+  }
+  .analiz_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .analiz_wrapper_figure {
+    right: 0;
+  }
+  .analiz_figure {
+    display: none;
+  }
+  .analiz_center-image {
+    right: -250px;
+    transform: scale(0.8);
+    top: 100px;
+  }
+  .analiz_right-text {
+    margin-bottom: 20px;
+  }
+  .analiz_formwrapper {
+    margin-bottom: 10px;
+  }
+  .target_wrapper {
+    width: 750px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .target_left {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 0;
+  }
+  .target_image {
+    right: -135px;
+    z-index: -1;
+    bottom: -42px;
+    transform: scale(0.9);
+  }
+  .target_right {
+    transform: translateY(-50px);
+    margin-top: -30px;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 0;
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+  .target_right-textblock {
+    width: 300px;
+    z-index: 0;
+  }
+  .target_right-textblock::after {
+    left: 30px;
+  }
+  .target_right-textblock p {
+    font-size: 16px;
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  .target_right-number {
+    font-size: 100px;
+    text-align-last: left;
+  }
+  .target_right-description {
+    width: 360px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  .methods_titleblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .methods_titleblock-plashka {
+    margin-left: 30px;
+  }
+  .methods_image {
+    display: none;
+  }
+  .methods_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .methods_card-6 {
+    transform: none;
+  }
+  .methods_card-7 {
+    transform: none;
+  }
+  .services {
+    padding-top: 100px;
+    padding-bottom: 35px;
+  }
+  .services_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .services_row {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: none;
+  }
+  .services_titleblock {
+    border: none;
+    margin-bottom: 15px;
+  }
+  .services_card {
+    border: none;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .about_wrapper {
+    width: 750px;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: url(/img/secondblock_image.png), linear-gradient(120.12deg, #100f0f 65%, #1f1f1f 85%);
+  }
+  .about_left {
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .about_image {
+    display: none;
+  }
+  .about_right {
+    padding-right: 0;
+    padding-left: 35px;
+    margin-top: -50px;
+  }
+  .about_right-cardwrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+  .about_right-cardwrapper img {
+    margin-top: -20px;
+  }
+  .about_chess {
+    display: none;
+  }
+  .owl-nav button {
+    bottom: -650px;
+    transform: none;
+    z-index: 999;
+  }
+  .owl-dots {
+    transform: translateY(41px);
+  }
+  .owl-prev {
+    left: 0;
+  }
+  .owl-next {
+    right: 0;
+  }
+  .cases_carousel {
+    width: 750px;
+    height: 1150px;
+  }
+  .cases_carousel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .cases_carousel-left {
+    width: 750px;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+  }
+  .cases_carousel-left-text {
+    width: 400px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #222;
+    margin-top: -30px;
+  }
+  .faq_wrapper {
+    width: 750px;
+  }
+  .faq_accord-head {
+    width: 750px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .faq_accord-content {
+    width: 750px;
+    font-size: 12px;
+  }
+  .emergency_wrapper {
+    width: 750px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .emergency_left {
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  .emergency_image {
+    right: -250px;
+    transform: scale(0.9);
+    bottom: -30px;
+  }
+  .emergency_right {
+    padding-left: 50px;
+  }
+  .gallery_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  .footer_left {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer_left a {
+    color: #fff;
+  }
+  .footer_center {
+    display: none;
+  }
+  .footer_right .contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer_right .contacts .numbers {
+    display: none;
+  }
+  .footer_right .contacts .social {
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_right-link {
+    text-align: center;
+    color: #F69D4B;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    width: 320px;
+    border: 1px solid red;
+  }
+  .main {
+    padding-bottom: 130px;
+  }
+  .main .mobile_nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    align-items: flex-end;
+    top: 42px;
+    z-index: 9999999999;
+  }
+  .main .mobile_nav-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main .mobile_nav-icon-active {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #aeaeae;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main .mobile_nav-icon-active div {
+    height: 1px;
+    width: 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    background: #fff;
+    opacity: 0.8;
+  }
+  .main .mobile_nav-icon-active div:nth-child(1) {
+    margin-top: 11px;
+  }
+  .main .mobile_nav-icon div {
+    height: 1px;
+    width: 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    background: #fff;
+    opacity: 0.8;
+  }
+  .main .mobile_nav-icon div:nth-child(1) {
+    margin-top: 11px;
+  }
+  .main .mobile_nav-wrapper {
+    display: none;
+  }
+  .main .mobile_nav-content {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    background-color: #222;
+    border-radius: 10px;
+  }
+  .main .mobile_nav-link {
+    text-align: center;
+  }
+  .main .mobile_nav-link a {
+    color: #fff;
+    font-family: "Proxima Nova Lt";
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .main .mobile_nav-contact a {
+    color: #fff;
+    font-family: "Proxima Nova Lt";
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .main_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main_header .logo {
+    margin-right: 20px;
+  }
+  .main_header .logo img {
+    width: 33px;
+    height: 33px;
+    margin-right: 7px;
+  }
+  .main_header .logo p {
+    width: 115px;
+    font-size: 10px;
+  }
+  .main_header .contacts .numbers {
+    display: none;
+  }
+  .main_content {
+    padding-top: 20px;
+  }
+  .main_content .main_button {
+    margin-top: 650px;
+    width: 300px;
+    height: 80px;
+    font-size: 13px;
+  }
+  .main_content .button_offer {
+    margin-top: 745px;
+    width: 320px;
+    width: 285px;
+    line-height: 16px;
+    font-size: 13px;
+  }
+  .main_content-left .lead {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    width: 310px;
+    line-height: 36px;
+    margin-bottom: 50px;
+  }
+  .main_content-left .lead i {
+    font-size: 24px;
+  }
+  .main_content-left .offer {
+    width: 310px;
+    padding-left: 20px;
+  }
+  .main_content-left .offer .offertext {
+    font-size: 14px;
+    width: 230px;
+  }
+  .main_content-left .offer .shape {
+    width: 35px;
+  }
+  .main_content-right {
+    padding-top: 0;
+    margin-top: -30px;
+  }
+  .main_content-right .offer_image {
+    transform: scale(0.5);
+    bottom: -200px;
+    right: -255px;
+  }
+  .main_content-right .main_benefits-wrapper {
+    width: 130px;
+    margin-bottom: 50px;
+    height: 173px;
+  }
+  .main_content-right .main_benefits-wrapper:nth-child(1) img {
+    width: 72px;
+    height: 56px;
+    left: 5px;
+    top: -28px;
+  }
+  .main_content-right .main_benefits-wrapper:nth-child(2) img {
+    width: 68px;
+    height: 68px;
+    left: 9px;
+    top: -34px;
+  }
+  .main_content-right .main_benefits p {
+    padding-top: 35px;
+    padding-left: 15px;
+    font-size: 10px;
+  }
+  .second {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+  .second_wrapper {
+    overflow: hidden;
+    width: 310px;
+    height: 800px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+  }
+  .second-transitionone {
+    height: 50px;
+    filter: blur(10px);
+    top: -20px;
+  }
+  .second-transitiontwo {
+    height: 50px;
+    bottom: -35px;
+    filter: blur(5px);
+  }
+  .second_left {
+    padding-top: -10px;
+    padding-left: 10px;
+  }
+  .second_left-title {
+    font-size: 24px;
+    line-height: 120%;
+    width: 300px;
+  }
+  .second_left-line {
+    display: none;
+  }
+  .second_left-text {
+    width: 200px;
+    font-size: 14px;
+    margin-bottom: 140px;
+  }
+  .second_left-grouptwo {
+    width: 190px;
+    height: 35px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+  }
+  .second_left-name {
+    width: 55px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .second_left-descriptor {
+    font-size: 8px;
+    width: 110px;
+  }
+  .second_image {
+    transform: scale(0.5);
+    right: -165px;
+    z-index: -1;
+    bottom: 200px;
+  }
+  .second_right {
+    top: 330px;
+    right: -43px;
+    position: absolute;
+  }
+  .second_right-text {
+    font-size: 12px;
+    line-height: 15px;
+    width: 145px;
+    margin-bottom: 65px;
+  }
+  .second_right-form-wrapper {
+    margin-left: -10px;
+    width: 310px;
+  }
+  .second_right-form-title {
+    padding-top: 20px;
+  }
+  .twoblocks {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .twoblocks .benefits_left {
+    margin-bottom: -10px;
+  }
+  .twoblocks .benefits_left-title {
+    text-align: left;
+    font-size: 24px;
+    width: 310px;
+  }
+  .twoblocks .benefits_left-descriptor {
+    width: 310px;
+  }
+  .twoblocks .benefits_left-line {
+    width: 20px;
+    margin-right: 20px;
+    margin-top: 11px;
+  }
+  .twoblocks .benefits_left-description {
+    font-size: 17px;
+    line-height: 21px;
+    width: 230px;
+  }
+  .twoblocks .benefits_card {
+    margin-bottom: -10px;
+  }
+  .twoblocks .benefits_card-image {
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+  }
+  .twoblocks .benefits_card-title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .twoblocks .benefits_card-list {
+    width: 310px;
+  }
+  .twoblocks .benefits_card-list li {
+    width: 290px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .twoblocks .pains_title {
+    width: 290px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .twoblocks .pains_pain {
+    width: 310px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 130px;
+  }
+  .twoblocks .pains_pain-left {
+    position: relative;
+  }
+  .twoblocks .pains_pain-left-title {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Proxima Nova Lt";
+    width: 300px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  .twoblocks .pains_pain-left-description {
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+    margin-bottom: -30px;
+  }
+  .twoblocks .pains_pain-left-button {
+    left: 20px;
+    position: absolute;
+    margin-top: 541px;
+    z-index: 9;
+    align-items: center;
+  }
+  .twoblocks .pains_pain-right {
+    padding: 0;
+    width: 310px;
+    height: 200px;
+  }
+  .twoblocks .pains_pain-right-head {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 6px;
+  }
+  .twoblocks .pains_pain-right-head-descr1 {
+    width: 150px;
+    padding-left: 30px;
+    padding-right: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+  .twoblocks .pains_pain-right-head-descr2 {
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 90px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+  }
+  .twoblocks .pains_pain-right-content {
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    width: 270px;
+    margin-top: 5px;
+  }
+  .twoblocks .pains_pain-image {
+    display: none;
+  }
+  .twoblocks .pains_pain:nth-child(5) button {
+    margin-top: 585px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
